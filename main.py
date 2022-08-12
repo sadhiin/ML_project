@@ -62,7 +62,14 @@ def save_uploaded_files(up_file):
 
 
 # Creating the streamlit app
-st.title("Fashion Recomendation System Using CNN")
+st.title('''
+Fashion Recomendation System Using CNN
+---
+Group: Train-Test-Split
+---
+Supervised by: DR. M M MANJURUL ISLAM
+
+''')
 
 
 upload_file = st.file_uploader('Chose an Image .jpg') # Uploader
@@ -83,7 +90,7 @@ if upload_file is not None:
         st.image(display_img)
         uploaded_features = feature_extractor(test_image_path,model)
 
-        st.text(uploaded_features)
+        # st.text(uploaded_features)
         idxs = recomender(uploaded_features, feature_list)
         col1,col2,col3,col4,col5,col6 = st.columns(6)
 
