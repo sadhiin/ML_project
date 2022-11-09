@@ -5,4 +5,4 @@ My First diploayed project on ML. Though this is very small in the world of ML, 
 Also need some imporvement on the model. So that the over-fitting and accuracy get increase. 🎯I will imporve the overall performance of the model.
 
 
-Paper [(https://www.academia.edu/90336739/Fashion_Recomandation_System_Using_ResNet50)]
+[More about the Work](https://www.academia.edu/90336739/Fashion_Recomandation_System_Using_ResNet50)
